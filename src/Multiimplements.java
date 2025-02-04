@@ -1,6 +1,6 @@
-public class Multiimplements implements Runnable {
+public class Multiimplements implements Runnable {//IN HERE WE CAN EXTEND ANOTHER CLASS AND WE CAN USE THREAD OR MULTITHREADING
     public void run(){
-        for(int i=0;i<10;i++){
+        for(int i=0;i<10;i++){//SAME THIS IS CRITICAL STATE AS LIKE AS A EXTENDED STATE
             System.out.println("hey this i user thread");
         }
     }

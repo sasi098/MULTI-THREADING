@@ -3,6 +3,12 @@ public class Multitextends extends Thread{
     public void run(){//THI IS LIKE A CRITICAL STATE
         for(int i=0;i<10;i++){
             System.out.println("hey this i user thread");
+            try{
+                Thread.sleep(100);//IMPLEMENTING SLEEP THREAD
+            }
+            catch (Exception e){
+                System.out.println(e.getMessage());
+            }
         }
     }
 

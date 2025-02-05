@@ -1,5 +1,5 @@
 class Display{
-    public void printsmall(){
+    public synchronized void printsmall(){
         for(int i=97;i<=122;i++){
             System.out.print((char) i + " ");
             try{
@@ -11,7 +11,7 @@ class Display{
         }
     }
 
-    public void printlarge(){
+    public synchronized void printlarge(){
         for(int i=65;i<=90;i++){
             System.out.print((char) i + " ");
             try{

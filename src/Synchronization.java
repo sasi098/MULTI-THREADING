@@ -1,7 +1,6 @@
-import java.beans.Expression;
 
 class Multiplier{
-    public void multiply(int k){
+    public synchronized void multiply(int k){
         for(int i=1;i<=10;i++){
             System.out.println(k + " * " + i + " : " + (k*i));
             try{

@@ -1,4 +1,4 @@
-
+//WE CAN USE ANONYMUS INNER CLASS INSTEAD OF CREATING MULTIPLE THREADS
 class Multiplier{
     public synchronized void multiply(int k){
         for(int i=1;i<=10;i++){
